@@ -21,11 +21,11 @@ def recibeConfig():
     1) Print information regarding any actress, actor or director that 
     has been either nominated to or has won an Oscar since 1927 complete, typing name + category (eg. 'Uma Thurman' actress)
     
-    2) Use --year in case you want to check nominees and winner of an specific year (eg, --year=1987)
+    2) Use --year in case you want to check nominees and winners of an specific year (eg, --year=1987)
 
     3) Use --movie if you wan't to check specific information regading a movie (eg, --movie='The Theory of Everything').
     ''')
-    group = parser.add_argument_group('Consulta persona')
+    group = parser.add_argument_group('Check a name')
     group.add_argument('Name',
                         nargs = '?',
                         help='Name of the actor, actress or director',
