@@ -57,6 +57,7 @@ You will need to install the following modules:
 
 Hope you enjoy it! :) 
 
+**PLEASE BE AWARE OF THE SPELLING!!!!**
 
 
 
